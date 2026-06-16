@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kostas — Propuestas de Logo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500;600;700&family=Playfair+Display:wght@700;800;900&family=Cormorant+Garamond:wght@600;700&family=Great+Vibes&family=Dancing+Script:wght@600;700&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0A2342; --navy-2:#102f57;
+    --gold:#B8973A; --gold-l:#F3CC6A; --gold-d:#8a6f24;
+    --cream:#FFFBEB; --paper:#F8FBFF;
+    --ink:#0A2342;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Inter',sans-serif;background:var(--paper);color:var(--ink)}
+  header.top{background:var(--navy);color:#fff;padding:34px 24px;text-align:center}
+  header.top h1{margin:0;font-family:'Playfair Display',serif;font-weight:800;font-size:30px;letter-spacing:.5px}
+  header.top p{margin:8px 0 0;color:#9db8e0;font-size:14px}
+  .wrap{max-width:1180px;margin:0 auto;padding:32px 20px 80px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:24px}
+  .card{background:#fff;border:1px solid #E2E8F0;border-radius:18px;overflow:hidden;box-shadow:0 10px 24px rgba(10,35,66,.07);display:flex;flex-direction:column}
+  .card .tag{display:flex;align-items:center;gap:8px;padding:14px 18px;border-bottom:1px solid #eef2f7}
+  .num{background:var(--navy);color:#fff;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-size:13px;font-weight:700}
+  .name{font-weight:700;font-size:15px}
+  .desc{padding:0 18px 14px;color:#64748B;font-size:12.5px;line-height:1.5;margin:0}
+  .stage{padding:26px;display:grid;place-items:center;min-height:170px;background:var(--paper)}
+  .stage.dark{background:var(--navy)}
+  .stage.cream{background:var(--cream)}
+  .row2{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #eef2f7}
+  .row2 .stage{min-height:150px}
+  .row2 .stage+.stage{border-left:1px solid #eef2f7}
+  .mini{display:flex;gap:14px;align-items:center;padding:14px 18px;border-top:1px dashed #e2e8f0;flex-wrap:wrap}
+  .mini small{color:#94A3B8;font-size:11px;width:100%}
+  svg{display:block;max-width:100%;height:auto}
+  .note{background:#fff;border:1px solid #E2E8F0;border-radius:16px;padding:22px 24px;margin-bottom:28px}
+  .note h2{margin:0 0 8px;font-size:17px}
+  .note p{margin:6px 0;color:#475569;font-size:13.5px;line-height:1.6}
+  .swatches{display:flex;gap:10px;margin-top:10px;flex-wrap:wrap}
+  .sw{display:flex;align-items:center;gap:7px;font-size:12px;color:#475569}
+  .dot{width:18px;height:18px;border-radius:6px;border:1px solid rgba(0,0,0,.1)}
+</style>
+</head>
+<body>
+<header class="top">
+  <h1>Kostas — Propuestas de Logo</h1>
+</header>
+
+<div class="wrap">
+
+  <div class="grid">
+
+    <!-- ============ 1. WORDMARK INDUSTRIAL ============ -->
+    <div class="card">
+      <div class="tag"><span class="num">1</span><span class="name">Wordmark industrial</span></div>
+      <p class="desc">Letras condensadas tipo letrero metálico. Apóstrofo en dorado y eslogan en cursiva, igual que el cartel real. La opción más fiel al original.</p>
+      <div class="stage">
+        <svg viewBox="0 0 360 150" width="320">
+          <text x="180" y="78" text-anchor="middle" font-family="'Oswald',sans-serif" font-weight="700" font-size="74" letter-spacing="2" fill="#0A2342">KOSTA<tspan fill="#B8973A">'</tspan>S</text>
+          <line x1="78" y1="98" x2="282" y2="98" stroke="#B8973A" stroke-width="2"/>
+          <text x="180" y="128" text-anchor="middle" font-family="'Great Vibes',cursive" font-size="30" fill="#B8973A">Siempre a la Moda</text>
+        </svg>
+      </div>
+      <div class="stage dark">
+        <svg viewBox="0 0 360 150" width="320">
+          <text x="180" y="78" text-anchor="middle" font-family="'Oswald',sans-serif" font-weight="700" font-size="74" letter-spacing="2" fill="#ffffff">KOSTA<tspan fill="#F3CC6A">'</tspan>S</text>
+          <line x1="78" y1="98" x2="282" y2="98" stroke="#F3CC6A" stroke-width="2"/>
+          <text x="180" y="128" text-anchor="middle" font-family="'Great Vibes',cursive" font-size="30" fill="#F3CC6A">Siempre a la Moda</text>
+        </svg>
+      </div>
+    </div>
+
+    <!-- ============ 2. EMBLEMA MONOGRAMA K (circular) ============ -->
+    <div class="card">
+      <div class="tag"><span class="num">2</span><span class="name">Emblema circular · Monograma K</span></div>
+      <p class="desc">Pensado para el círculo del navbar y el favicon. Anillo dorado con remaches (alusión a los tornillos del letrero) y K central.</p>
+      <div class="stage">
+        <svg viewBox="0 0 150 150" width="140">
+          <circle cx="75" cy="75" r="70" fill="#0A2342"/>
+          <circle cx="75" cy="75" r="62" fill="none" stroke="#B8973A" stroke-width="2.5"/>
+          <g fill="#F3CC6A">
+            <circle cx="75" cy="13" r="2.4"/><circle cx="137" cy="75" r="2.4"/><circle cx="75" cy="137" r="2.4"/><circle cx="13" cy="75" r="2.4"/>
+          </g>
+          <text x="75" y="98" text-anchor="middle" font-family="'Playfair Display',serif" font-weight="900" font-size="74" fill="#F3CC6A">K</text>
+        </svg>
+      </div>
+      <div class="stage cream">
+        <svg viewBox="0 0 150 150" width="140">
+          <circle cx="75" cy="75" r="70" fill="#fff" stroke="#B8973A" stroke-width="2.5"/>
+          <circle cx="75" cy="75" r="62" fill="none" stroke="#0A2342" stroke-width="1.2"/>
+          <text x="75" y="98" text-anchor="middle" font-family="'Playfair Display',serif" font-weight="900" font-size="74" fill="#0A2342">K</text>
+        </svg>
+      </div>
+    </div>
+
+    <!-- ============ 3. ELEGANTE SERIF + SCRIPT ============ -->
+    <div class="card">
+      <div class="tag"><span class="num">3</span><span class="name">Elegante moda · Serif + cursiva</span></div>
+      <p class="desc">Más “boutique de moda”: serif fino y refinado. Transmite calidad y estilo manteniendo el eslogan cursivo.</p>
+      <div class="stage">
+        <svg viewBox="0 0 360 150" width="320">
+          <text x="180" y="74" text-anchor="middle" font-family="'Playfair Display',serif" font-weight="800" font-size="58" letter-spacing="3" fill="#0A2342">KOSTA<tspan fill="#B8973A" font-style="italic">'</tspan>S</text>
+          <g fill="#B8973A"><circle cx="120" cy="96" r="2.6"/><circle cx="240" cy="96" r="2.6"/></g>
+          <line x1="134" y1="96" x2="226" y2="96" stroke="#B8973A" stroke-width="1.4"/>
+          <text x="180" y="124" text-anchor="middle" font-family="'Dancing Script',cursive" font-weight="700" font-size="26" fill="#64748B">Siempre a la Moda</text>
+        </svg>
+      </div>
+      <div class="stage dark">
+        <svg viewBox="0 0 360 150" width="320">
+          <text x="180" y="74" text-anchor="middle" font-family="'Playfair Display',serif" font-weight="800" font-size="58" letter-spacing="3" fill="#ffffff">KOSTA<tspan fill="#F3CC6A" font-style="italic">'</tspan>S</text>
+          <g fill="#F3CC6A"><circle cx="120" cy="96" r="2.6"/><circle cx="240" cy="96" r="2.6"/></g>
+          <line x1="134" y1="96" x2="226" y2="96" stroke="#F3CC6A" stroke-width="1.4"/>
+          <text x="180" y="124" text-anchor="middle" font-family="'Dancing Script',cursive" font-weight="700" font-size="26" fill="#cdb87a">Siempre a la Moda</text>
+        </svg>
+      </div>
+    </div>
+
+    <!-- ============ 4. INSIGNIA / BADGE MOSAICO ============ -->
+    <div class="card">
+      <div class="tag"><span class="num">4</span><span class="name">Insignia · Alusión al mosaico de madera</span></div>
+      <p class="desc">Marco con patrón de cubos (los bloques de madera del letrero) y sello “EST.”. Ideal para etiquetas de ropa, bolsas y sellos.</p>
+      <div class="stage">
+        <svg viewBox="0 0 200 150" width="190">
+          <defs>
+            <pattern id="checker" width="14" height="14" patternUnits="userSpaceOnUse">
+              <rect width="14" height="14" fill="#B8973A"/>
+              <rect width="7" height="7" fill="#F3CC6A"/>
+              <rect x="7" y="7" width="7" height="7" fill="#F3CC6A"/>
+            </pattern>
+          </defs>
+          <rect x="14" y="14" width="172" height="122" rx="10" fill="url(#checker)"/>
+          <rect x="22" y="22" width="156" height="106" rx="6" fill="#0A2342"/>
+          <text x="100" y="74" text-anchor="middle" font-family="'Bebas Neue',sans-serif" font-size="46" letter-spacing="3" fill="#F3CC6A">KOSTA'S</text>
+          <line x1="50" y1="86" x2="150" y2="86" stroke="#B8973A" stroke-width="1.4"/>
+          <text x="100" y="104" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="600" font-size="9" letter-spacing="4" fill="#9db8e0">SIEMPRE A LA MODA</text>
+        </svg>
+      </div>
+      <div class="stage cream">
+        <svg viewBox="0 0 200 150" width="190">
+          <rect x="16" y="16" width="168" height="118" rx="9" fill="none" stroke="#B8973A" stroke-width="2"/>
+          <rect x="24" y="24" width="152" height="102" rx="5" fill="none" stroke="#0A2342" stroke-width="1"/>
+          <text x="100" y="74" text-anchor="middle" font-family="'Bebas Neue',sans-serif" font-size="46" letter-spacing="3" fill="#0A2342">KOSTA'S</text>
+          <line x1="50" y1="86" x2="150" y2="86" stroke="#B8973A" stroke-width="1.4"/>
+          <text x="100" y="104" text-anchor="middle" font-family="'Inter',sans-serif" font-weight="600" font-size="9" letter-spacing="4" fill="#B8973A">SIEMPRE A LA MODA</text>
+        </svg>
+      </div>
+    </div>
+
+    <!-- ============ 5. HANGER K (alusión moda) ============ -->
+    <div class="card">
+      <div class="tag"><span class="num">5</span><span class="name">Ícono moda · Gancho + K</span></div>
+      <p class="desc">Alusión directa a ropa: un gancho de ropa forma el ícono. Marca + ícono separables. Muy reconocible a tamaño pequeño.</p>
+      <div class="stage">
+        <svg viewBox="0 0 360 140" width="330">
+          <!-- hanger icon -->
+          <g transform="translate(20,28)" fill="none" stroke="#B8973A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M40 14 a8 8 0 1 1 9 8 c-5 2 -5 6 -5 9"/>
+            <path d="M44 31 L10 64 a4 4 0 0 0 3 7 H75 a4 4 0 0 0 3 -7 Z" fill="#0A2342" stroke="#0A2342"/>
+          </g>
+          <text x="118" y="74" font-family="'Oswald',sans-serif" font-weight="700" font-size="56" letter-spacing="1.5" fill="#0A2342">KOSTA<tspan fill="#B8973A">'</tspan>S</text>
+          <text x="120" y="100" font-family="'Dancing Script',cursive" font-weight="700" font-size="22" fill="#B8973A">Siempre a la Moda</text>
+        </svg>
+      </div>
+      <div class="stage dark">
+        <svg viewBox="0 0 360 140" width="330">
+          <g transform="translate(20,28)" fill="none" stroke="#F3CC6A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M40 14 a8 8 0 1 1 9 8 c-5 2 -5 6 -5 9"/>
+            <path d="M44 31 L10 64 a4 4 0 0 0 3 7 H75 a4 4 0 0 0 3 -7 Z" fill="#F3CC6A" stroke="#F3CC6A"/>
+          </g>
+          <text x="118" y="74" font-family="'Oswald',sans-serif" font-weight="700" font-size="56" letter-spacing="1.5" fill="#ffffff">KOSTA<tspan fill="#F3CC6A">'</tspan>S</text>
+          <text x="120" y="100" font-family="'Dancing Script',cursive" font-weight="700" font-size="22" fill="#cdb87a">Siempre a la Moda</text>
+        </svg>
+      </div>
+    </div>
+
+    <!-- ============ 6. MONOGRAMA MINIMAL K'S ============ -->
+    <div class="card">
+      <div class="tag"><span class="num">6</span><span class="name">Monograma minimal K’S</span></div>
+      <p class="desc">Versión moderna y limpia para apps, redes y favicon. El apóstrofo dorado es el guiño al “KOSTA’S” original.</p>
+      <div class="stage">
+        <svg viewBox="0 0 150 150" width="130">
+          <rect x="5" y="5" width="140" height="140" rx="34" fill="#0A2342"/>
+          <text x="62" y="103" text-anchor="middle" font-family="'Playfair Display',serif" font-weight="900" font-size="86" fill="#fff">K</text>
+          <text x="108" y="62" text-anchor="middle" font-family="'Playfair Display',serif" font-weight="900" font-size="46" fill="#F3CC6A">'S</text>
+        </svg>
+      </div>
+      <div class="stage cream">
+        <svg viewBox="0 0 150 150" width="130">
+          <rect x="5" y="5" width="140" height="140" rx="34" fill="#fff" stroke="#B8973A" stroke-width="2"/>
+          <text x="62" y="103" text-anchor="middle" font-family="'Playfair Display',serif" font-weight="900" font-size="86" fill="#0A2342">K</text>
+          <text x="108" y="62" text-anchor="middle" font-family="'Playfair Display',serif" font-weight="900" font-size="46" fill="#B8973A">'S</text>
+        </svg>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+</body>
+</html>
